@@ -1,0 +1,1 @@
+# lotide-flex dictionary pull
