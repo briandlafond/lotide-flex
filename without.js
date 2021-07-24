@@ -30,17 +30,17 @@ const without = function(source, itemsToRemove) {
 
   for (let i = 0; i < source.length; i++) {
  
-      if (itemsToRemove.includes(source[i]) === false) {
-        withoutArray.push(source[i]);
-      }
+    if (itemsToRemove.includes(source[i]) === false) {
+      withoutArray.push(source[i]);
     }
+  }
   return withoutArray;
 };
 
 
 //TEST CASES
-console.log(without([1, 2, 3], [1])) // => [2, 3]
-console.log(without(["1", "2", "3"], [1, 2, "3"])) // => ["1", "2"]
+console.log(without([1, 2, 3], [1])); // => [2, 3]
+console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
