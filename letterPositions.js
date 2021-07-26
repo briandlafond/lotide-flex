@@ -1,11 +1,3 @@
-// const letterPositions = function (string) {
-  
-//   let result = {};
-
-//   return result;
-
-// };
-
 const letterPositions = (string) => {
   
   const results = {};
