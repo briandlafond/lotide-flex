@@ -17,14 +17,14 @@ const countLetters = function(string) {
       if (result[letter]) {
         result[letter] += 1;
       } else if (string[letter] !== " ") {
-        result[letter] = 1
+        result[letter] = 1;
       }
   }
   return result;
 
 };
 
-let testString = "brian daniel lafond zzzzz"
+let testString = "brian daniel lafond zzzzz";
 
-console.log(countLetters(testString))
+console.log(countLetters(testString));
 

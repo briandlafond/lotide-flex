@@ -27,18 +27,17 @@ const eqArrays = function(array1, array2) {
 const takeUntil = function(array, callback) {
   let slicedArray = [];
   for (const element of array) {
-      if (callback(element)) {
-          return slicedArray;
-      } else {
-          slicedArray.push(element);
-      }
-
+    if (callback(element)) {
+      return slicedArray;
+    } else {
+      slicedArray.push(element);
+    }
   }
   return slicedArray;
-}
+};
 
 //TEST CASES
-const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5]; 
+const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 const results1 = takeUntil(data1, x => x < 0);
 console.log(results1); // [ 1, 2, 5, 7, 2 ]
 
