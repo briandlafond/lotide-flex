@@ -1,5 +1,3 @@
-const findKeyByValue = require("./findKeyByValue");
-
 const assertEqual = function(actual, expected) {
 
   if (actual === expected) {
