@@ -1,8 +1,8 @@
 {
-  "name": "lotide-flex",
+  "name": "@briandlafond/lotide-flex",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "Lighthouse Labs student lotide library",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/briandlafond/lotide-flex.git"
   },
-  "author": "",
+  "author": "Brian La Fond",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/briandlafond/lotide-flex/issues"
