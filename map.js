@@ -49,3 +49,5 @@ const map = function(array, callback) {
 
 const result1 = map(words, word => word[0]);
 console.log(result1);
+
+module.exports = map;

@@ -1,3 +1,5 @@
+const findKeyByValue = require("./findKeyByValue");
+
 const assertEqual = function(actual, expected) {
 
   if (actual === expected) {
@@ -28,3 +30,5 @@ const answer = findKey({
 console.log(answer);
 
 assertEqual(answer, 'noma');
+
+module.exports = findKey;

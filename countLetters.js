@@ -28,3 +28,4 @@ let testString = "brian daniel lafond zzzzz";
 
 console.log(countLetters(testString));
 
+module.exports = countLetters;
